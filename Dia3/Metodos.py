@@ -10,7 +10,7 @@ b = "Python"
 c = "es"
 d = "genial"
 e = " ".join([a,b,c,d])
-print(e)
+print("Resultado del join : " + e)
 
 resultado = texto.find("s") # 1 = indice de la primer 's'
 #La diferencia con index() es que si no encuentra el caracter que le pasamos devuelve -1
