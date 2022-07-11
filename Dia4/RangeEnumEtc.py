@@ -71,6 +71,37 @@ ingles = ['one', 'two', 'three', 'four', 'five']
 
 numeros = list(zip(espaniol, portugues, ingles))
 
+#-------------------------------------------------------------------
+# MIN Y MAX
+
+menor = min(58,96,72,64,35)
+mayor = max(58,96,72,64,35)
+
+print(menor)
+print(mayor)
+
+lista_numeros = [58,96,72,64,35]
+
+print(f"El menor es {min(lista_numeros)} y el mayor es {max(lista_numeros)}")
+
+# En una lista de strings para saber quien tiene el primer lugar en orden alfabetico  :
+nombre_personas = ['juan', 'pablo', 'alicia', 'carlos']
+
+print(min(nombre_personas)) #'alicia'
+
+# Si trabajamos solo con un string :
+
+nombre_persona = "Carlos"
+
+print(min(nombre_persona)) #C -> en este caso nos devuelve la 'C', porque primero busca en las mayusculas y luego en
+#las minusculas, si ponemos todas las letras en minusculas nos devolvera la primer letra en funcion del alfabeto.
+
+# En cuanto a los DICCIONARIOS :
+
+dic = {'C1': 45, 'C2': 11}
+
+print(min(dic)) #C1 -> Por defecto se fija en la clave mas pequenia y es la que muestra.
+print(min(dic.values())) #11 -> En este caso si nos traera el valor mas pequenio
 
 
 
