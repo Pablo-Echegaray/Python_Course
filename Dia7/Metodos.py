@@ -10,7 +10,7 @@ Dado que desde cada objeto tambien se puede acceder a la clase, tambien pueden m
 la clase.
 Los metodos de instancia afectan a cada instancia (al self).
 '''
-# Metodos de clase : @classmethod
+# Metodos de clase : @classmethod 
 ''' @classmethod
     def mi_metodo(cls):
         print("algo")
