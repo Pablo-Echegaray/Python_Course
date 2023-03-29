@@ -42,3 +42,8 @@ print(ariel.altura) #1.76
 print(ariel.peso) #79
 print(ariel[2]) #79
 
+
+
+
+import os
+print(os.environ.get('HTTP_PREFIX'))
